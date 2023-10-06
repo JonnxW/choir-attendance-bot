@@ -1,0 +1,36 @@
+{
+	"name": "choir-attendance-bot",
+	"version": "0.0.1",
+	"description": "A telegram bot to manage the attendance to choir rehearsals",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+		"lint": "eslint src/**/*.ts src/*.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/JonnxW/choir-attendance-bot.git"
+	},
+	"keywords": [
+		"telegram",
+		"bot",
+		"typescript"
+	],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JonnxW/choir-attendance-bot/issues"
+	},
+	"homepage": "https://github.com/JonnxW/choir-attendance-bot#readme",
+	"devDependencies": {
+		"@tsconfig/node18": "^18.2.2",
+		"@types/node": "^18.18.3",
+		"@typescript-eslint/eslint-plugin": "^6.7.4",
+		"@typescript-eslint/parser": "^6.7.4",
+		"eslint": "^8.50.0",
+		"prettier": "^2.8.8",
+		"tsc-watch": "^6.0.4",
+		"typescript": "^5.2.2"
+	}
+}
